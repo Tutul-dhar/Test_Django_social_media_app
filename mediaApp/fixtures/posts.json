@@ -1,0 +1,134 @@
+[
+    {
+        "model": "mediaApp.category",
+        "pk": 1,
+        "fields": {
+            "name": "Work",
+            "description": "Work related tasks",
+            "created_at": "2024-01-01T00:00:00Z",
+            "updated_at": "2024-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "mediaApp.category",
+        "pk": 2,
+        "fields": {
+            "name": "Personal",
+            "description": "Personal tasks and errands",
+            "created_at": "2024-01-01T00:00:00Z",
+            "updated_at": "2024-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "mediaApp.category",
+        "pk": 3,
+        "fields": {
+            "name": "Sports",
+            "description": "Sports and physical activities",
+            "created_at": "2024-01-01T00:00:00Z",
+            "updated_at": "2024-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "mediaApp.category",
+        "pk": 4,
+        "fields": {
+            "name": "Education",
+            "description": "Educational tasks and learning",
+            "created_at": "2024-01-01T00:00:00Z",
+            "updated_at": "2024-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "mediaApp.category",
+        "pk": 5,
+        "fields": {
+            "name": "Entertainment",
+            "description": "Fun and leisure activities",
+            "created_at": "2024-01-01T00:00:00Z",
+            "updated_at": "2024-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "mediaApp.category",
+        "pk": 6,
+        "fields": {
+            "name": "Politics",
+            "description": "Political activity",
+            "created_at": "2024-01-01T00:00:00Z",
+            "updated_at": "2024-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "mediaApp.post",
+        "pk": 1,
+        "fields": {
+            "title": "Complete Project Proposal",
+            "description": "Write and submit the Q1 project proposal",
+            "category": 1,
+            "created_at": "2024-01-01T00:00:00Z",
+            "updated_at": "2024-01-01T00:00:00Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "mediaApp.post",
+        "pk": 2,
+        "fields": {
+            "title": "Gym Session",
+            "description": "1 hour workout at the gym",
+            "category": 3,
+            "created_at": "2024-01-01T00:00:00Z",
+            "updated_at": "2024-01-01T00:00:00Z",
+            "user": 6
+        }
+    },
+    {
+        "model": "mediaApp.post",
+        "pk": 3,
+        "fields": {
+            "title": "Learn Django REST Framework",
+            "description": "Complete the DRF tutorial",
+            "category": 4,
+            "created_at": "2024-01-01T00:00:00Z",
+            "updated_at": "2024-01-01T00:00:00Z",
+            "user": 3
+        }
+    },
+    {
+        "model": "mediaApp.post",
+        "pk": 4,
+        "fields": {
+            "title": "Watch a Movie",
+            "description": "Watch a new release movie with friends",
+            "category": 5,
+            "created_at": "2024-01-01T00:00:00Z",
+            "updated_at": "2024-01-01T00:00:00Z",
+            "user": 6
+        }
+    },
+    {
+        "model": "mediaApp.post",
+        "pk": 5,
+        "fields": {
+            "title": "Read a Book",
+            "description": "Finish reading a book on programming",
+            "category": 4,
+            "created_at": "2024-01-01T00:00:00Z",
+            "updated_at": "2024-01-01T00:00:00Z",
+            "user": 5
+        }
+    },
+    {
+        "model": "mediaApp.post",
+        "pk": 6,
+        "fields": {
+            "title": "Complete Homework",
+            "description": "Finish the math homework",
+            "category": 2,
+            "created_at": "2024-01-01T00:00:00Z",
+            "updated_at": "2024-01-01T00:00:00Z",
+            "user": 6
+        }
+    }
+]
